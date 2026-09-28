@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
+import Projects from "./sections/Projects";
 
 
 function App() {
@@ -11,17 +12,7 @@ function App() {
       <main>
         <Hero />
         <About />
-
-        <section
-          id="projects"
-          className="min-h-screen border-t-[3px] border-neo-black px-5 py-20 md:px-8"
-        >
-          <div className="mx-auto max-w-7xl">
-            <h2 className="font-display text-4xl font-bold">
-              Projects
-            </h2>
-          </div>
-        </section>
+        <Projects />
 
         <section
           id="experience"
